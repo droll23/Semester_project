@@ -28,8 +28,6 @@ la GUI, avec deux domaines de retour sélectionnables (A/B) :
 - `pressure` : PID → correction bar ajoutée au feedforward (historique)
 - `force` : PID → ΔF (N), F_total inversé par Sarosi (Gattringer 2009)
 
-Tout ajout de complexité doit être justifié par une mesure expérimentale
-montrant l'insuffisance de la couche précédente.
 
 ## Architecture
 
