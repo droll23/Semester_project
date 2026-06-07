@@ -22,7 +22,7 @@ Approche feedforward d'abord, feedback ensuite :
 La cinématique directe (Levenberg-Marquardt) reconstruit la pose réelle à
 partir des longueurs mesurées, utilisée pour monitoring et diagnostic.
 
-Un PID longueur (FF + PI sur erreur de longueur muscle) est activable depuis
+Un PID longueur (FF + PID sur erreur de longueur muscle) est activable depuis
 la GUI, avec deux domaines de retour sélectionnables (A/B) :
 
 - `pressure` : PID → correction bar ajoutée au feedforward (historique)
